@@ -11,8 +11,8 @@ import { forEach } from '@angular/router/src/utils/collection';
  
  @Injectable()
 export class SearchImageService{
-    MyURL:string = environment.PIXABAY_API_URL;
-    myKey :string = environment.PIXABAY_API_KEY;
+    MyURL:string = 'https://pixabay.com/api/?key=';
+    myKey :string ='7742318-e2acd7c32afd80a58f68d24c8';
 
     images:IImage[];
   
